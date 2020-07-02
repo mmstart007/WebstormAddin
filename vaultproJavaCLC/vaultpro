@@ -1,0 +1,87 @@
+#!/bin/sh
+
+# base_directory is the directory containing the SourceGear VaultPro libraries
+if [ -z "$VAULTPRO_CLC_HOME" ] ; then
+base_directory=`dirname "$0"`
+else
+base_directory="$VAULTPRO_CLC_HOME"
+fi
+
+if [ -x /usr/bin/test ]
+then
+   test=/usr/bin/test
+else
+   test=/bin/test
+fi
+
+if $test ! -e "$base_directory/lib/vault.jar" ; then
+   echo Unable to find a required JAR: $base_directory/lib/vault.jar does not exist
+   exit
+fi
+
+case `uname -s` in
+    AIX)
+        PLATFORM=aix
+        ARCH=`uname -p`
+        ;;
+    Linux)
+        PLATFORM=linux
+        ARCH=`uname -m`
+        ;;
+    SunOS)
+        PLATFORM=solaris
+        ARCH=`uname -p`
+        ;;
+    Darwin)
+        PLATFORM=macosx
+        ARCH=""
+        ;;
+    FreeBSD)
+        PLATFORM=freebsd
+    	ARCH=`uname -m`
+    	;;
+	HP-UX)
+		PLATFORM=hpux
+        ARCH=PA_RISC
+        ;;
+    *)
+        PLATFORM=unknown
+        ARCH=unknown
+		;;
+esac
+
+case $ARCH in
+    i386|i486|i586|i686)
+        ARCH=x86
+        ;;
+    x86_64)
+        ARCH=x86_64
+        ;;
+    sparc)
+        ARCH=sparc
+        ;;
+    ppc|ppc64|powerpc)
+        ARCH=ppc
+        ;;
+	PA_RISC)
+		;;        
+    unknown)
+        ;;
+esac
+
+# sg_classpath holds the classpath as it's built up
+sg_classpath=.
+
+for i in "$base_directory"/lib/*.jar
+do
+	sg_classpath="$sg_classpath:$i"
+done
+
+# Sun's JVM 1.4 on Linux may block for lack of entropy and cause the
+# client to hang if /dev/random is used.  /dev/urandom will not block.
+random_device_property=""
+if $test `uname` = "Linux" ; then
+    random_device_property="-Djava.security.egd=file:/dev/urandom"
+fi
+
+exec java -Xmx1024M -cp "$sg_classpath" "-Dlog4j.configuration=$base_directory/log4j.properties" "-Dsourcegear.log.location=$HOME/.sourcegear/VaultProJavaCLC.log" "-Djava.library.path=$base_directory/native/$PLATFORM/$ARCH" $random_device_property VaultCmdLineClient.VaultCmdLineClient "$@"

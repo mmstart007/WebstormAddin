@@ -1,0 +1,40 @@
+<idea-plugin>
+    <id>com.your.company.WebstormAddin</id>
+    <name>Vault client plugin</name>
+    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+    <description><![CDATA[
+    Enter short description for your plugin here.<br>
+    <em>most HTML tags may be used</em>
+    ]]></description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <iconProvider implementation="ui.CheckIconProvider"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <group id="SourceGearVault" text="SourceGearVault" popup="true">
+            <add-to-group group-id="ToolsMenu" anchor="before" relative-to-action="VaultAddin"/>
+            <action class="VaultAddin" id="VaultAddin" text="VaultAddin" description="Connect to the SourceGearVault"></action>
+            <action class="AddFile" id="AddFileFolder" text="Add files/folder" description="Add file or folder to the repository"></action>
+<!--            <action class="ui.SetWorking" id="SetWorking" text="Set Working folder..." description="Set working folder" icon=""/>-->
+        </group>
+
+<!--        <action id="VaultAddin" class="VaultAddin" text="VaultAddin" description="SourceGearVault plugin">-->
+<!--            <add-to-group group-id="ToolsMenu" anchor="last"/>-->
+<!--        </action>-->
+        <action id="CheckIn" class="CheckIn" text="CheckIn" description="CheckIn file/folder">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="first"/>
+        </action>
+        <action id="CheckOut" class="CheckOut" text="CheckOut" description="Checkout file/folder">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>

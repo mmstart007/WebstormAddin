@@ -1,0 +1,11 @@
+<project>
+  <component name="ExternalProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vault-java-driver.iml" filepath="$PROJECT_DIR$/.idea/modules/vault-java-driver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vault-java-driver.integrationTests.iml" filepath="$PROJECT_DIR$/.idea/modules/vault-java-driver.integrationTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vault-java-driver.main.iml" filepath="$PROJECT_DIR$/.idea/modules/vault-java-driver.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vault-java-driver.test.iml" filepath="$PROJECT_DIR$/.idea/modules/vault-java-driver.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vault-java-driver.unitTests.iml" filepath="$PROJECT_DIR$/.idea/modules/vault-java-driver.unitTests.iml" />
+    </modules>
+  </component>
+</project>

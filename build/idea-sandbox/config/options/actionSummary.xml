@@ -1,0 +1,129 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$SelectAll">
+        <ActionSummary times="7" last="1593633606495" />
+      </entry>
+      <entry key="$Undo">
+        <ActionSummary times="2" last="1593612764223" />
+      </entry>
+      <entry key="About">
+        <ActionSummary times="2" last="1593682638189" />
+      </entry>
+      <entry key="ActivateGradleToolWindow">
+        <ActionSummary times="1" last="1592799164622" />
+      </entry>
+      <entry key="AddFileFolder">
+        <ActionSummary times="16" last="1593691526077" />
+      </entry>
+      <entry key="CheckIn">
+        <ActionSummary times="18" last="1593605437327" />
+      </entry>
+      <entry key="CheckOut">
+        <ActionSummary times="47" last="1593699928652" />
+      </entry>
+      <entry key="ChooseRunConfiguration">
+        <ActionSummary times="1" last="1593192900861" />
+      </entry>
+      <entry key="CopyElement">
+        <ActionSummary times="1" last="1593597465339" />
+      </entry>
+      <entry key="DropAnError">
+        <ActionSummary times="1" last="1593568041109" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="135" last="1593633504093" />
+      </entry>
+      <entry key="EditorCopy">
+        <ActionSummary times="87" last="1593698871459" />
+      </entry>
+      <entry key="EditorNextWordWithSelection">
+        <ActionSummary times="2" last="1593597392702" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="65" last="1593698873115" />
+      </entry>
+      <entry key="EditorPreviousWord">
+        <ActionSummary times="3" last="1593618841315" />
+      </entry>
+      <entry key="EditorPreviousWordWithSelection">
+        <ActionSummary times="469" last="1593621716367" />
+      </entry>
+      <entry key="FileChooser.GotoDesktop">
+        <ActionSummary times="2" last="1593568289359" />
+      </entry>
+      <entry key="FileChooser.GotoHome">
+        <ActionSummary times="6" last="1593568291064" />
+      </entry>
+      <entry key="FileChooser.NewFolder">
+        <ActionSummary times="2" last="1593580872233" />
+      </entry>
+      <entry key="NewFile">
+        <ActionSummary times="1" last="1593597184438" />
+      </entry>
+      <entry key="NewProject">
+        <ActionSummary times="5" last="1593602091670" />
+      </entry>
+      <entry key="OpenFile">
+        <ActionSummary times="1" last="1592800943862" />
+      </entry>
+      <entry key="PopupDialogAction">
+        <ActionSummary times="11" last="1593341506160" />
+      </entry>
+      <entry key="SearchEverywhere">
+        <ActionSummary times="2" last="1592877526924" />
+      </entry>
+      <entry key="SetWorking">
+        <ActionSummary times="1" last="1593479067934" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="1" last="1593689889766" />
+      </entry>
+      <entry key="SynchronizeCurrentFile">
+        <ActionSummary times="1" last="1593597497894" />
+      </entry>
+      <entry key="VaultAddin">
+        <ActionSummary times="150" last="1593698868854" />
+      </entry>
+      <entry key="VaultAddind">
+        <ActionSummary times="2" last="1593470105305" />
+      </entry>
+      <entry key="WelcomeScreen.OpenDirectoryProject">
+        <ActionSummary times="2" last="1593580946050" />
+      </entry>
+      <entry key="WelcomeScreen.OpenProject">
+        <ActionSummary times="1" last="1592798908339" />
+      </entry>
+      <entry key="WelcomeScreen.Plugins">
+        <ActionSummary times="1" last="1592877530931" />
+      </entry>
+      <entry key="WelcomeScreen.RemoveSelected">
+        <ActionSummary times="4" last="1593580848789" />
+      </entry>
+      <entry key="com.intellij.ide.ReopenProjectAction">
+        <ActionSummary times="2" last="1593602098153" />
+      </entry>
+      <entry key="com.intellij.ide.plugins.PluginManagerConfigurable$InstallFromDiskAction">
+        <ActionSummary times="1" last="1593689897296" />
+      </entry>
+      <entry key="com.intellij.ide.plugins.newui.TabbedPaneHeaderComponent$3">
+        <ActionSummary times="2" last="1593689896043" />
+      </entry>
+      <entry key="com.intellij.openapi.actionSystem.impl.ChameleonAction">
+        <ActionSummary times="6" last="1593360982711" />
+      </entry>
+      <entry key="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+        <ActionSummary times="1" last="1592877530921" />
+      </entry>
+      <entry key="com.intellij.openapi.ui.DialogWrapper$5">
+        <ActionSummary times="1" last="1593597155093" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+        <ActionSummary times="6" last="1593192804819" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$6">
+        <ActionSummary times="2" last="1593580949321" />
+      </entry>
+    </data>
+  </component>
+</application>

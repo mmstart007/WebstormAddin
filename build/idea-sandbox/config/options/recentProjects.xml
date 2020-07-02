@@ -1,0 +1,52 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="E:/C/example">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1e52VIieaDKlHgmqdgaRpIrO5I9">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-201.7223.93" />
+              <option name="buildTimestamp" value="1588234343361" />
+              <frame x="113" y="54" width="1400" height="777" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1593597208518" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="E:/C/untitled">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1e5CEggRwSsFyRPGd8p5AGomUp4">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-201.7223.93" />
+              <option name="buildTimestamp" value="1588234354708" />
+              <frame x="157" y="64" width="1400" height="777" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1593602100216" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="E:/A">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1e4VfxX7DA1LWQeCb8vAvaS39gF">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-201.7846.79" />
+              <option name="buildTimestamp" value="1591087755119" />
+              <frame x="119" y="53" width="1400" height="777" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1593699921024" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="E:/C" />
+    <option name="recentPaths">
+      <list>
+        <option value="E:/A" />
+        <option value="E:/C/untitled" />
+        <option value="E:/C/example" />
+      </list>
+    </option>
+  </component>
+</application>

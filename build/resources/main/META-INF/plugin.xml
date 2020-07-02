@@ -1,0 +1,31 @@
+<idea-plugin>
+  <version>1.0</version>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="201.7846" until-build="201.*"/>
+  <id>com.your.company.WebstormAddin</id>
+  <name>Vault client plugin</name>
+  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <description>
+    Enter short description for your plugin here.&lt;br&gt;
+    &lt;em&gt;most HTML tags may be used&lt;/em&gt;
+    </description>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <iconProvider implementation="ui.CheckIconProvider"/>
+  </extensions>
+  <actions>
+    <group id="SourceGearVault" text="SourceGearVault" popup="true">
+      <add-to-group group-id="ToolsMenu" anchor="before" relative-to-action="VaultAddin"/>
+      <action class="VaultAddin" id="VaultAddin" text="VaultAddin" description="Connect to the SourceGearVault"/>
+      <action class="AddFile" id="AddFileFolder" text="Add files/folder" description="Add file or folder to the repository"/>
+    </group>
+    <action id="CheckIn" class="CheckIn" text="CheckIn" description="CheckIn file/folder">
+      <add-to-group group-id="ProjectViewPopupMenu" anchor="first"/>
+    </action>
+    <action id="CheckOut" class="CheckOut" text="CheckOut" description="Checkout file/folder">
+      <add-to-group group-id="ProjectViewPopupMenu" anchor="first"/>
+    </action>
+  </actions>
+</idea-plugin>

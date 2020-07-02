@@ -1,0 +1,16 @@
+<conversion>
+  <applied-converters>
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="android-sdk-library" />
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+  </applied-converters>
+  <project-files>
+    <file path="E:\jinhyok task\gradle-intellij-plugin-master\.idea\gradle.xml" timestamp="1592798962689" />
+    <file path="E:\jinhyok task\gradle-intellij-plugin-master\.idea\compiler.xml" timestamp="1592796078128" />
+    <file path="E:\jinhyok task\gradle-intellij-plugin-master\.idea\misc.xml" timestamp="1592798962619" />
+    <file path="E:\jinhyok task\gradle-intellij-plugin-master\.idea\workspace.xml" timestamp="1592800951589" />
+    <file path="E:\jinhyok task\gradle-intellij-plugin-master\.idea\jarRepositories.xml" timestamp="1592796130744" />
+  </project-files>
+</conversion>
